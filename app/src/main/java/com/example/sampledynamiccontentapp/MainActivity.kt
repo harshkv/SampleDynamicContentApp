@@ -41,6 +41,7 @@ fun MainScreen(viewModel: MainViewModel) {
             newNameStateContent.value
         ) { newName -> viewModel.onTextChanged(newText = newName) }
     }
+    //testing branch
 }
 
 @Composable
